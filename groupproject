@@ -5,7 +5,7 @@ function getWeather(){
 	// lets us talk to a different machine - in this case one that provides weather data
 	// If you want to try this code, you MUST get your own API key from openweathermap.org
 	// and put it in place of the <yourkeygoeshere> placeholder !!!!!!!!!!!!!!!!!!!!!!!!!!
-  	var url = "http://api.openweathermap.org/data/2.5/weather?zip=<yourzipcodegoeshere>,US&appid=<yourkeygoeshere>";
+  	var url = "http://api.openweathermap.org/data/2.5/weather?zip=<6bfbfd9df89c3edf3eba80b634d0500ee>,US&appid=<6bfbfd9df89c3edf3eba80b634d0500e>";
     // Now that we have a nice query, we can send it to the server. Note that this function will terminate
 	// right after the request is sent.
 	jsonRequest(url);
